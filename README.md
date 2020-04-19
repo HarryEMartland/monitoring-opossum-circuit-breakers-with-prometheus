@@ -7,4 +7,5 @@ This will spin up two applications one which makes requests to the other and mon
 
 - [Prometheus](http://localhost:9090)
 - [Grafana](http://localhost:3002/) (username: admin, password: secret)
+- [Grafana Dashboard](http://localhost:3002/d/aiyWzpsWz/circuit-breakers)
 - [App](http://localhost:3000/)

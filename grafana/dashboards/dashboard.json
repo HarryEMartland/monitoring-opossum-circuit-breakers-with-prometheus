@@ -81,7 +81,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "rate(circuit{event!~\"\"}[15s])",
+          "expr": "rate(circuit[15s])",
           "interval": "",
           "legendFormat": "{{event}}",
           "refId": "A"

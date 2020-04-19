@@ -5,12 +5,12 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const {register} = require('prom-client');
 const PrometheusMetrics = require('opossum-prometheus');
-const BreakerMetrics = new PrometheusMetrics(register)
+const prometheusMetrics = new PrometheusMetrics(register)
 
 const indexRouter = require('./routes/index');
 const errorRouter = require('./routes/error');
 
-const errorService = require('./service/errorService')(BreakerMetrics)
+const errorService = require('./service/errorService')(prometheusMetrics)
 
 const app = express();
 

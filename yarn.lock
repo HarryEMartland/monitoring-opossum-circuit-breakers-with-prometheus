@@ -1004,10 +1004,10 @@ once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-opossum-prometheus@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/opossum-prometheus/-/opossum-prometheus-0.1.0.tgz#2d523885371bd3da3934ae0d47286d82f40a4aea"
-  integrity sha512-leT9OFyM9HlxEldni5b22ZlUkJHPulXOvXNvhFxGyROvsgcBNotGQqBW9FDyKB5k34QFnaYfjP+FY8TLAC3JmA==
+opossum-prometheus@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/opossum-prometheus/-/opossum-prometheus-0.2.0.tgz#5b2b6d256215f1b52c51bc546f8c9e44fdd5f4d4"
+  integrity sha512-DNEAuq/twi42zLQ02Oidt/NpmgkaJA8Zz9CYNZBXL6ts78KSY8APxm9/HJRuPeGrL4lRsjk17pqPMUjDwGXFJg==
   dependencies:
     prom-client "^12.0.0"
 

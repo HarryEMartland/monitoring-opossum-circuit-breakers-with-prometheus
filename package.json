@@ -13,7 +13,7 @@
     "http-errors": "~1.7.3",
     "jade": "~1.11.0",
     "morgan": "~1.10.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "opossum": "^5.0.0",
     "opossum-prometheus": "^0.2.0",
     "prom-client": "^12.0.0"
